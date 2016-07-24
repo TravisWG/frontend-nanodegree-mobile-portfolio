@@ -10,7 +10,7 @@ There are two distinct directories.
 
 ## index.html
 
-	- Inlined some key portions of CSS at the top of the hmtl file
+	- Inlined some key portions of CSS at the top of the html file
 	- Put the remaining CSS files at the bottom to prevent render blocking
 	- Add separate CSS file for mobile and added a media query so it would only load on mobile
 	- Moved script tag to bottom of page and made files load asynchronously to prevent parser blocking of the DOM
