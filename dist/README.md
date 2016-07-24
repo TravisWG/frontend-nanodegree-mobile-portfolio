@@ -23,6 +23,7 @@ There are two distinct directories.
 		- so it wasn't reading Layout properties during every iteration of the for loop and caused Forced Synchronous Layout
 	- changed the amount of sliding pizzas to be loaded based on the height of the viewport and reduced # of columns to 6
 		* this could be made to be refreshed (currently will not change pizza amount in cases where browser window is resized)
+	- in updatePositions() changed querySelectorAll('.mover') to getElementsByClassName('mover')
 
 ## /views/css/style.css
 	- added "will-change: transform" to .mover so the browswer will create background on separate layer
